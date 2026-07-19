@@ -1,0 +1,1 @@
+export const app = new sst.aws.TanStackStart("App")
