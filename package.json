@@ -1,18 +1,24 @@
 {
+  "dependencies": {
+    "sst": "^3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.3",
+    "@tsconfig/node22": "^22",
+    "husky": "^9.1.7",
+    "typescript": "^5",
+    "ultracite": "7.9.4"
+  },
   "name": "envision",
+  "scripts": {
+    "dev": "sst dev --stage dev",
+    "deploy": "sst deploy --stage production",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "prepare": "husky"
+  },
   "version": "0.0.0",
   "workspaces": [
     "packages/*"
-  ],
-  "scripts": {
-    "dev": "sst dev --stage dev",
-    "deploy": "sst deploy --stage production"
-  },
-  "devDependencies": {
-    "@tsconfig/node22": "^22",
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "sst": "^3"
-  }
+  ]
 }

@@ -1,1 +1,1 @@
-export const app = new sst.aws.TanStackStart("App")
+export const app = new sst.aws.TanStackStart("App");

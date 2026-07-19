@@ -1,4 +1,4 @@
-Welcome to your new TanStack Start app! 
+Welcome to your new TanStack Start app!
 
 # Getting Started
 
@@ -42,13 +42,11 @@ If you prefer not to use Tailwind CSS:
 
 This project uses [Biome](https://biomejs.dev/) for linting and formatting. The following scripts are available:
 
-
 ```bash
 npm run lint
 npm run format
 npm run check
 ```
-
 
 ## Deploy with Nitro
 
@@ -61,8 +59,7 @@ node dist/server/index.mjs
 
 The build output is a self-contained Node server. To deploy, push the `dist/` directory to your host (Render, Fly.io, your own VPS, etc.) and run the server command above.
 
-For host-specific presets (Vercel, Netlify, Cloudflare, AWS Lambda, etc.) and tuning, see https://v3.nitro.build/deploy.
-
+For host-specific presets (Vercel, Netlify, Cloudflare, AWS Lambda, etc.) and tuning, see <https://v3.nitro.build/deploy>.
 
 ## Shadcn
 
@@ -71,7 +68,6 @@ Add components using the latest version of [Shadcn](https://ui.shadcn.com/).
 ```bash
 pnpm dlx shadcn@latest add button
 ```
-
 
 ## T3Env
 
@@ -86,10 +82,6 @@ import { env } from "#/env";
 
 console.log(env.VITE_APP_TITLE);
 ```
-
-
-
-
 
 ## Setting up Better Auth
 
@@ -123,8 +115,6 @@ Then run migrations:
 ```bash
 npx -y @better-auth/cli migrate
 ```
-
-
 
 ## Routing
 
